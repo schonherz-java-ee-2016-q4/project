@@ -1,0 +1,10 @@
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\service\UserService.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\vo\BaseVo.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\vo\UserRole.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\vo\UserVo.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\encrypter\Encrypter.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\service\UserServiceLocal.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\rpc\RpcLoginServiceRemote.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\service\UserServiceRemote.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\service\InvalidUserDataException.java
+C:\TANFOLYAM\shared-project-repo\project\admin-service-api\src\main\java\hu\schonherz\project\admin\service\api\rpc\FailedRpcLoginAttemptException.java
