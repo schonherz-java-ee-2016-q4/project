@@ -21,7 +21,7 @@ public class UserData implements Serializable {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(final Long id) {
         this.id = id;
     }
 
@@ -29,7 +29,7 @@ public class UserData implements Serializable {
         return email;
     }
 
-    public void setEmail(String email) {
+    public void setEmail(final String email) {
         this.email = email;
     }
 
@@ -37,7 +37,7 @@ public class UserData implements Serializable {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(final String username) {
         this.username = username;
     }
 
@@ -45,7 +45,7 @@ public class UserData implements Serializable {
         return password;
     }
 
-    public void setPassword(String password) {
+    public void setPassword(final String password) {
         this.password = password;
     }
 
@@ -53,23 +53,25 @@ public class UserData implements Serializable {
         return userRole;
     }
 
-    public void setUserRole(UserRole userRole) {
+    public void setUserRole(final UserRole userRole) {
         this.userRole = userRole;
     }
 
     @Override
     public int hashCode() {
-        int hash = 3;
-        hash = 29 * hash + Objects.hashCode(this.id);
-        hash = 29 * hash + Objects.hashCode(this.email);
-        hash = 29 * hash + Objects.hashCode(this.username);
-        hash = 29 * hash + Objects.hashCode(this.password);
-        hash = 29 * hash + Objects.hashCode(this.userRole);
+        final int mulplier1 = 3;
+        final int mulplier2 = 29;
+        int hash = mulplier1;
+        hash = mulplier2 * hash + Objects.hashCode(this.id);
+        hash = mulplier2 * hash + Objects.hashCode(this.email);
+        hash = mulplier2 * hash + Objects.hashCode(this.username);
+        hash = mulplier2 * hash + Objects.hashCode(this.password);
+        hash = mulplier2 * hash + Objects.hashCode(this.userRole);
         return hash;
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(final Object obj) {
         if (this == obj) {
             return true;
         }
@@ -92,10 +94,8 @@ public class UserData implements Serializable {
         if (!Objects.equals(this.id, other.id)) {
             return false;
         }
-        if (this.userRole != other.userRole) {
-            return false;
-        }
-        return true;
+
+        return this.userRole == other.userRole;
     }
 
     @Override
