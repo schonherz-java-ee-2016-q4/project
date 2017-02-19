@@ -65,7 +65,7 @@ html, body {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 0;
+    z-index: 9999999999999999999999;
     -webkit-box-shadow: 4px 5px 18px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 4px 5px 18px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 4px 5px 18px 0px rgba(0, 0, 0, 0.75);
