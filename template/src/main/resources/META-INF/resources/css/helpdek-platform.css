@@ -98,7 +98,7 @@ html, body {
 
 .largenav-icon {
     align-self: center;
-    margin: 10px;
+    margin: 15px;
 }
 
 .menu-item-row {
@@ -180,6 +180,7 @@ html, body {
 }
 
 .sidenav {
+	z-index: 99999999999999999999999;
     height: 100%;
     width: 0;
     position: fixed;
